@@ -50,7 +50,7 @@ jobs:
           token: ${{ secrets.GH_TOKEN }}
 
       - name: Change manifest
-        run: sed -i "s|zerohertzkr/server-portal:[^ ]*|zerohertzkr/server-portal:${{ env.TAG }}|" k8s/main.yaml
+        run: sed -i "s|kimyoungwoo613/server-portal:[^ ]*|kimyoungwoo613/server-portal:${{ env.TAG }}|" k8s/main.yaml
 
       - name: git push
         run: |
