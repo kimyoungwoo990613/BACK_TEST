@@ -54,8 +54,8 @@ jobs:
 
       - name: git push
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.name "kyw613"
+          git config user.email "rladuddn613@naver.com"
           git config credential.helper store
           git add k8s/main.yaml
           git commit -m ":tada: Update: Image [${{ env.TAG }}]"
