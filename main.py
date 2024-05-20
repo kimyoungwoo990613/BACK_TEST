@@ -1,1 +1,1 @@
-print("wwhy don'tsf seesstart")
+print("wwhy don'tsf seessstart")
